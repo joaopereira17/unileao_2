@@ -1,0 +1,310 @@
+/*
+	AJUSTES GERAIS
+*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 540px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	body {
+		margin-bottom: 365px
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1198.98px) {
+	body {
+		margin-bottom: 330px;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		margin-bottom: 310px;
+	}
+}
+
+/*
+	AJUSTES NAVBAR
+*/
+nav.navbar ul.navbar-nav li.nav-item a.nav-link {
+	font-size: 13px;
+	font-weight: bold;
+	color: #fff;
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+	opacity: .8;
+}
+
+/*
+	AJUSTES SECTION PRINCIPAL
+*/
+section#principal {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+section#principal div.container-fluid {
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+section#principal div.container-fluid div.container span.guia-principal {
+	display: inline-block;
+	background-color: #00bfff;
+	margin-top: 1rem;
+	padding: 0 .5rem;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+section#principal div.container-fluid div.container h2 {
+	margin-top: 2rem;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	section#principal div.container-fluid div.container h1 img {
+		width: 290px;
+	}
+
+	section#principal,
+	section#principal div.container-fluid div.container span.guia-principal,
+	section#principal div.container-fluid div.container h2 {
+		font-size: 16px;
+	}
+
+	section#principal div.container-fluid div.container #formulario-principal form button.btn {
+		font-size: 12px !important;
+	}
+}
+
+@media (max-width: 1024px) {
+	section#principal div.container-fluid div.container #formulario-principal form button.btn {
+		font-size: 14px !important;
+	}
+}
+
+section#principal div.container-fluid div.container #formulario-principal {
+	background-color: #00bfff;
+	padding: 2rem 1rem;
+	border-radius: 25px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #3b3b3b;
+}
+
+section#principal div.container-fluid div.container #formulario-principal h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-style: italic;
+	color: #1b2d6d;
+}
+
+section#principal div.container-fluid div.container #formulario-principal form {
+	margin-top: 1rem;
+	text-align: left;
+}
+
+section#principal div.container-fluid div.container #formulario-principal form label {
+	margin-top: .5rem;
+	font-weight: bold;
+}
+
+section#principal div.container-fluid div.container #formulario-principal form input.form-control {
+	border-radius: 10px;
+	border: 2px solid #9f9f9f;
+}
+
+section#principal div.container-fluid div.container #formulario-principal form input.form-control:focus {
+	-webkit-box-shadow: 0 0 15px #9f9f9f;
+	box-shadow: 0 0 15px #9f9f9f;
+}
+
+section#principal div.container-fluid div.container #formulario-principal form button.btn {
+	background-color: #ffef00;
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 4px 0 #ff9600;
+	box-shadow: 0 4px 0 #ff9600;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #684410;
+}
+
+section#principal div.container-fluid div.container #formulario-principal form button.btn:hover {
+	opacity: .9;
+}
+
+section#principal div.container-fluid div.btn-group-vertical {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	z-index: 999;
+}
+
+section#principal div.container-fluid div.btn-group-vertical button.btn {
+	background-color: #00c0ff;
+	color: #fff;
+}
+
+section#principal div.container-fluid div.btn-group-vertical button.btn:hover {
+	-webkit-box-shadow: 0 0 10px #00c0ff;
+	box-shadow: 0 0 10px #00c0ff;
+}
+
+/*
+	AJUSTES SECTION APRESENTACAO
+*/
+section#apresentacao {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+section#apresentacao div#carousel-apresentacao ol.carousel-indicators {
+	bottom: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+section#apresentacao div#carousel-apresentacao ol.carousel-indicators li {
+	width: 100%;
+	height: 25px;
+	background-color: #001d47;
+	margin-right: 0;
+	margin-left: 0;
+	border: none;
+	text-align: center;
+	text-indent: unset;
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff;
+	opacity: 1;
+}
+
+section#apresentacao div#carousel-apresentacao ol.carousel-indicators li.active {
+	background-color: #67fff5;
+	color: #001e47;
+}
+
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img1,
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img2,
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img3 {
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img1 {
+	background-image: url('../imagens/banner.png');
+}
+
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img2 {
+
+}
+
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img3 {
+	background-image: url('../imagens/banner2.png');
+}
+
+@media (max-width: 768px) {
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img1 {
+		background-image: url('../imagens/banner-mobile.png');
+	}
+
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img2 {
+
+	}
+
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img3 {
+		background-image: url('../imagens/banner2-mobile.png');
+	}
+
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-caption a.btn {
+		margin-bottom: 0 !important;
+		font-size: 15px !important;
+	}
+}
+
+@media (min-width: 1023.98px) and (max-width: 1366px) {
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img1,
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img2,
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img3 {
+		max-height: 580px;
+	}
+}
+
+@media (min-width: 1367.98px) and (max-width: 1920px) {
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img1,
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img2,
+	section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-img3 {
+		max-height: 790px;
+	}
+}
+
+section#apresentacao div#carousel-apresentacao div.carousel-inner div.carousel-item div.carousel-caption a.btn {
+	background-color: #ff5a00;
+	margin-bottom: 3rem;
+	padding: 0.9375rem 4.375rem;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 10px 0 #c34906;
+	        box-shadow: 0 10px 0 #c34906;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+}
+
+/*
+	AJUSTES FOOTER
+*/
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	color: #fff;
+}
+
+footer div.container-fluid div.container h4 {
+	font-weight: bold;
+}
+
+footer div.container-fluid div.container ul.nav li.nav-item a.nav-link {
+	color: #fff;
+	padding: 0;
+}
+
+/*
+	CLASSES CONTEXTUAIS
+*/
+.bg-navbar {
+	background-color: #6a0783;
+}
+
+.bg-principal {
+	background-color: #ff006c;
+}
+
+.bg-footer {
+	background-color: #001d47;
+}
+
+.text-indice {
+	font-size: 30px;
+	color: #00c0ff;
+}
